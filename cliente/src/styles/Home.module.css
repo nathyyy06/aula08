@@ -1,0 +1,121 @@
+/* Container principal do catálogo */
+.catalogContainer {
+    padding: 40px;
+    background-color: #f5faff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  /* Título do catálogo */
+  .catalogTitle {
+    font-size: 2.5rem;
+    color: #5e8dff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  /* Filtros de busca e ações */
+  .searchFilters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput {
+    padding: 12px 15px;
+    border: 2px solid #a3c6f1;
+    border-radius: 25px;
+    font-size: 1rem;
+    width: 60%;
+    outline: none;
+  }
+  
+  .searchInput:focus {
+    border-color: #88b8ff;
+    background-color: #eaf7ff;
+  }
+  
+  .actionButton {
+    background-color: #5e8dff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actionButton:hover {
+    background-color: #88b8ff;
+  }
+  
+  .registerButton {
+    background-color: #88b8ff;
+  }
+  
+  .registerButton:hover {
+    background-color: #5e8dff;
+  }
+  
+  /* Estilos para a tabela */
+  .jewelTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableHeader {
+    background-color: #5e8dff;
+    color: white;
+    font-size: 1.1rem;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .tableData {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .jewelRow:nth-child(even) {
+    background-color: #f1faff;
+  }
+  
+  .jewelRow:hover {
+    background-color: #b3d8ff;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #5e8dff;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e1efff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .link:hover {
+    background-color: #88b8ff;
+  }
+  
+  .editButton {
+    background-color: #88b8ff;
+    color: white;
+  }
+  
+  .removeButton {
+    background-color: #5e8dff;
+    color: white;
+  }
+  
+
+/* Navegação */
+nav {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}

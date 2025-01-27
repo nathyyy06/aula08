@@ -1,0 +1,54 @@
+/* Formulário comum para cadastro e edição */
+.formContainer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .formWrapper {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formTitle {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #5e8dff;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #a3c6f1;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .formInput:focus {
+    border-color: #5e8dff;
+    background-color: #eaf7ff;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #5e8dff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #88b8ff;
+  }
